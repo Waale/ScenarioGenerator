@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import MenuEntry from './MenuEntry';
+import Menu from './Menu';
 import CharacterGenerator from "./CharacterGenerator";
 
 class App extends Component {
@@ -49,9 +49,9 @@ class App extends Component {
         var mobileMenuButtonClickFunction = this.onMobileMenuButtonClick;
         var rerollClickFunction = this.onRerollClick;
         var locale = this.state.locale;
-        var key = null;
+        var currentGameKey = null;
         if (this.state.game !== undefined) {
-            key = this.state.game.key;
+            currentGameKey = this.state.game.key;
         }
         var games = require("./games/" + locale + "/games.json");
 
@@ -59,26 +59,12 @@ class App extends Component {
             <div className="App">
                   <div className="row">
                       <div className="col-md-3 left-panel">
-                          <ul className="nav nav-pills nav-stacked">
-                              {
-                                  games.map(function (game) {
-                                      return <MenuEntry key={game.key} game={game}
-                                                        active={key === game.key}
-                                                        menuEntryClickFunction={menuEntryClickFunction}/>
-                                  })
-                              }
-                          </ul>
+                          <Menu games={games} currentGameKey={currentGameKey}
+                                menuEntryClickFunction={menuEntryClickFunction}/>
                       </div>
                       <div className={"mobile-menu" + (this.state.game === undefined ? " initial" : "") + (this.state.mobileMenuOpen ? "" : " hidden")}>
-                          <ul className="nav nav-pills nav-stacked">
-                              {
-                                  games.map(function (game) {
-                                      return <MenuEntry key={game.key} game={game}
-                                                        active={key === game.key}
-                                                        menuEntryClickFunction={menuEntryClickFunction}/>
-                                  })
-                              }
-                          </ul>
+                          <Menu games={games} currentGameKey={currentGameKey}
+                                menuEntryClickFunction={menuEntryClickFunction}/>
                       </div>
                       <CharacterGenerator class="col-md-9 char-gen" locale={locale} game={this.state.game}
                                           rerollClickFunction={rerollClickFunction}

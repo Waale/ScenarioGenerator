@@ -1,0 +1,23 @@
+.char-gen-attribute {
+    padding: 0;
+}
+
+.char-gen-attribute h4 {
+    margin: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #395a79;
+    color: white;
+    opacity: 0.9;
+}
+
+.char-gen-attribute h5 {
+    margin: 0;
+    padding: 8px;
+    background-color: #749abe;
+    opacity: 0.9;
+}
+
+.char-gen-attribute h5+h5 {
+    border-top: #446888 1px solid;
+}

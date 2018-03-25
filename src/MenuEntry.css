@@ -1,0 +1,22 @@
+.nav li {
+    cursor: pointer;
+    margin: 0 !important;
+}
+
+.nav li+li {
+    border-top: black 1px solid;
+}
+
+.nav li a {
+    border-radius: 0;
+    color: white;
+}
+
+.nav li a:hover {
+    background-color: #bacdde;
+    color: black;
+}
+
+.nav li.active a {
+    background-color: #749abe;
+}

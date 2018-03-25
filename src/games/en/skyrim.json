@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Race",
+    "number": 1,
+    "values": [
+      "Altmer",
+      "Argonian",
+      "Bosmer",
+      "Breton",
+      "Dunmer",
+      "Imperial",
+      "Khajiit",
+      "Nord",
+      "Orsimer",
+      "Redguard"
+    ]
+  },
+  {
+    "name": "Civil War Side",
+    "number": 1,
+    "values": [
+      "Imperial Legion",
+      "Storm Cloaks"
+    ]
+  },
+  {
+    "name": "Factions",
+    "min": 2,
+    "max": 5,
+    "values": [
+      "Bards College",
+      "Blades",
+      "College of Winterhold",
+      "Companions",
+      "Coven of Namira",
+      "Dark Brotherhood",
+      "Dawnguard",
+      "Greybeards",
+      "House Telvanni",
+      "Nightingales",
+      "Thieves Guild",
+      "Tribal Orcs",
+      "Volkihar Clan"
+    ]
+  },
+  {
+    "name": "Follower",
+    "number": 1,
+    "values": [
+      "Argis the Bulwark",
+      "Calder",
+      "Gregor",
+      "Iona",
+      "Jordis the Sword-Maider",
+      "Lydia",
+      "Rayya",
+      "Valdimar"
+    ]
+  }
+]

@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Game",
+      "number": 1,
+      "values": [
+        "Red, Green or Blue",
+        "Yellow",
+        "Gold or Silver",
+        "Crystal",
+        "Ruby or Sapphire",
+        "Emerald",
+        "FireRed or LeafGreen",
+        "Diamond or Pearl",
+        "Platinum",
+        "HeartGold or SoulSilver",
+        "Black or White",
+        "Black 2 or White 2",
+        "X or Y",
+        "Omega Ruby or Alpha Sapphire",
+        "Sun or Moon",
+        "Ultra Sun or Ultra Moon"
+      ]
+    },
+    {
+      "name": "Starter",
+      "number": 1,
+      "values": [
+        "Fire",
+        "Grass",
+        "Water"
+      ]
+    }
+]

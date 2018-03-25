@@ -1,0 +1,14 @@
+[
+  {
+    "key": "pokemon",
+    "name": "Pokémon",
+    "file": "pokemon.json",
+    "background": "pokemon.jpg"
+  },
+  {
+    "key": "skyrim",
+    "name": "The Elder Scrolls V : Skyrim",
+    "file": "skyrim.json",
+    "background": "skyrim.jpg"
+  }
+]

@@ -1,0 +1,56 @@
+.char-gen {
+    padding: 0;
+    height: 100vh;
+}
+
+.char-gen-content {
+    height: inherit;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 991px) {
+    .char-gen {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .bars-icon {
+        display: none;
+    }
+}
+
+.char-gen-background {
+    z-index: -1;
+    height: inherit;
+    width: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+}
+
+.char-gen h1 {
+    margin: 0;
+    padding: 15px;
+}
+
+.char-gen-top-row h1+h1 {
+    padding-top: 5px;
+}
+
+.reroll-icon {
+    cursor: pointer;
+    -webkit-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.reroll-icon:hover {
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+}

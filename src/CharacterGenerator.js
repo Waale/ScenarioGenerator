@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './CharacterGenerator.css';
-import CharacterAttribute from './CharacterAttribute';
+import CharacterAttributes from './CharacterAttributes';
 import FontAwesome from '@fortawesome/react-fontawesome';
 import RerollIcon from '@fortawesome/fontawesome-free-solid/faRedoAlt';
 import BarsIcon from '@fortawesome/fontawesome-free-solid/faBars';
@@ -38,15 +38,7 @@ class CharacterGenerator extends Component {
                                              className="reroll-icon"/>
                             </h1>
                         </div>
-                        <div className="row">
-                            {
-                                game.map(function(attribute) {
-                                    return (
-                                        <CharacterAttribute key={attribute.name} attribute={attribute}/>
-                                    );
-                                })
-                            }
-                        </div>
+                        <CharacterAttributes game={game}/>
                     </div>
                     <div className="char-gen-background"
                          style={{backgroundImage: "url(images/backgrounds/" + this.props.game.background + ")"}}/>

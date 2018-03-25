@@ -16,7 +16,53 @@
     ]
   },
   {
-    "name": "Civil War Side",
+    "name": "Ranged",
+    "min": 1,
+    "max": 2,
+    "values": [
+      "Alteration",
+      "Bow",
+      "Conjuration",
+      "Destruction",
+      "Illusion",
+      "Restoration"
+    ]
+  },
+  {
+    "name": "Melee",
+    "number": 1,
+    "values": [
+      "Two One-handed",
+      "One-handed and Shield",
+      "Two-handed"
+    ]
+  },
+  {
+    "name": "Armour",
+    "number": 1,
+    "values": [
+      "Clothes",
+      "Heavy",
+      "Light",
+      "Robe"
+    ]
+  },
+  {
+    "name": "Secondary Skills",
+    "min": 2,
+    "max": 3,
+    "values": [
+      "Alchemy",
+      "Enchanting",
+      "Lockpicking",
+      "Pickpocket",
+      "Smithing",
+      "Sneak",
+      "Speech"
+    ]
+  },
+  {
+    "name": "Side",
     "number": 1,
     "values": [
       "Imperial Legion",
@@ -44,6 +90,15 @@
     ]
   },
   {
+    "name": "Behavior",
+    "number": 1,
+    "values": [
+      "Good",
+      "Neutral",
+      "Evil"
+    ]
+  },
+  {
     "name": "Follower",
     "number": 1,
     "values": [
@@ -55,6 +110,18 @@
       "Lydia",
       "Rayya",
       "Valdimar"
+    ]
+  },
+  {
+    "name": "Objectives",
+    "min": 2,
+    "max": 3,
+    "values": [
+      "Buy a house in each town",
+      "Finish all quests",
+      "Get your ranged, melee and secondary skills to level 100",
+      "Learn all dragon shouts",
+      "Own all weapon and armour sets"
     ]
   }
 ]

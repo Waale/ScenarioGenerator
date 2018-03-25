@@ -5,7 +5,7 @@ import './CharacterAttribute.css';
 class CharacterAttribute extends Component {
     getRandomValue() {
         var attribute = this.props.attribute;
-        var min = 1;
+        var min = attribute.number;
         var max = attribute.number;
         var values = attribute.values;
         if (max === undefined) {

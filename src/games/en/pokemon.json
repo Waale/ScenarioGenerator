@@ -1,33 +1,78 @@
 [
-    {
-      "name": "Game",
-      "number": 1,
-      "values": [
-        "Red, Green or Blue",
-        "Yellow",
-        "Gold or Silver",
-        "Crystal",
-        "Ruby or Sapphire",
-        "Emerald",
-        "FireRed or LeafGreen",
-        "Diamond or Pearl",
-        "Platinum",
-        "HeartGold or SoulSilver",
-        "Black or White",
-        "Black 2 or White 2",
-        "X or Y",
-        "Omega Ruby or Alpha Sapphire",
-        "Sun or Moon",
-        "Ultra Sun or Ultra Moon"
-      ]
-    },
-    {
-      "name": "Starter",
-      "number": 1,
-      "values": [
-        "Fire",
-        "Grass",
-        "Water"
-      ]
-    }
+  {
+    "name": "Game",
+    "number": 1,
+    "values": [
+      "Red, Green or Blue",
+      "Yellow",
+      "Gold or Silver",
+      "Crystal",
+      "Ruby or Sapphire",
+      "Emerald",
+      "FireRed or LeafGreen",
+      "Diamond or Pearl",
+      "Platinum",
+      "HeartGold or SoulSilver",
+      "Black or White",
+      "Black 2 or White 2",
+      "X or Y",
+      "Omega Ruby or Alpha Sapphire",
+      "Sun or Moon",
+      "Ultra Sun or Ultra Moon"
+    ]
+  },
+  {
+    "name": "Starter",
+    "number": 1,
+    "values": [
+      "Fire",
+      "Grass",
+      "Water"
+    ]
+  },
+  {
+    "name": "Party",
+    "number": 6,
+    "values": [
+      "Bug",
+      "Dark",
+      "Dragon",
+      "Electric",
+      "Fairy",
+      "Fighting",
+      "Fire",
+      "Flying",
+      "Ghost",
+      "Grass",
+      "Ground",
+      "Ice",
+      "Normal",
+      "Psychic",
+      "Poison",
+      "Rock",
+      "Steel",
+      "Water"
+    ]
+  },
+  {
+    "name": "Modifiers",
+    "min": 2,
+    "max": 3,
+    "values": [
+      "Always have starter in first slot",
+      "Avoid trainer battles",
+      "Complete (if possible) your region's pokedex before fighting the league",
+      "Give all your pokemons a different nickname",
+      "Only use 6 pokemons",
+      "Only use basic poke balls, except on legendaries",
+      "Only use pokecenters when your whole team is KO",
+      "Never run from battles",
+      "Never use object in trainer battles",
+      "Never swap pokemon",
+      "No breeding",
+      "No held items",
+      "Same gender team",
+      "When a pokemon faints, release it"
+    ]
+  }
 ]
